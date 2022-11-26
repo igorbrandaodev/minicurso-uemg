@@ -24,7 +24,7 @@ namespace projeto_mini_curso
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produto>>> GetProdutos()
         {
-            // oi pessoal
+            // essa mudança será enviada paraprodução
             return await _context.Produtos.ToListAsync();
         }
 
